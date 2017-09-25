@@ -1,0 +1,173 @@
+
+
+
+
+
+
+
+
+* {margin: 0; padding: 0;}
+.h1a{ 
+text-align:center; text-color:blue; }
+.diva {
+overflow-y:scroll;
+  margin: 15px;
+float:left;
+ background-color:white;
+ border:solid;
+  height:600px;
+}
+
+.ula {
+  list-style-type: none;
+  width: 450px;
+}
+
+.h3a {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.lia img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.lia p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+.lia {
+  padding: 10px;
+  overflow: auto;
+}
+
+.lia:hover {
+  background: #00b1e1;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bt gayer shakel input type */
+.inputStyle{
+border: 2px solid blue;
+    border-radius: 4px;
+
+}
+.Fin{
+text-align: right;
+background-color: white;
+margin-top:275px;
+}
+u{
+text-decoration:none;
+font-weight:bold;
+font-size:30px;
+font-family: Vijaya;
+color: grey ;
+}
+
+.titre{
+  text-align: center;
+  text-shadow :10px 10px 10px #6AAFCF;
+  font-weight:bold;
+  font-family:Bodoni MT Black; 
+  color: #00B1E1;
+  font-size:1em;
+  }
+.ulStyle{
+   list-style-type: none;
+   padding:0;
+   margin:0;
+}
+.button_style{
+
+  background-color: #00B1E1;  
+  border-radius: 5px;
+  padding: 14px 20px;
+  word-wrap:  break-word;
+  width:150px;
+ }
+ .button_style:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.ecriture{
+   text-shadow :10px 10px 10px #6AAFCF;
+   text-align: center;
+   font-weight:bold;
+   font-family:Bodoni MT Black; 
+   color: Black;
+   }
+ a {
+   color:blue;
+   text-align : center;
+   font-size:1em;}
+.modal {
+    
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.ProfilePic {
+    text-align:center;
+    width: 40%;
+    border-radius: 50%;
+}
+
