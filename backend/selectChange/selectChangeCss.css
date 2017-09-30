@@ -1,0 +1,16 @@
+table ,td	{
+	height: 600px;
+	width: 1500px;
+	border: 1px solid blue;	
+    border-collapse: collapse;
+}
+
+
+.mainDiv{
+	height: 600px;
+	width: 1500px;
+}
+
+form , h3 {
+	margin-left:  20px;
+}
