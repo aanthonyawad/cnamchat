@@ -1,8 +1,10 @@
 table ,td	{
+	vertical-align: 0;
 	height: 600px;
 	width: 1500px;
 	border: 1px solid blue;	
     border-collapse: collapse;
+    vertical-align: baseline;
 }
 
 
@@ -13,4 +15,14 @@ table ,td	{
 
 form , h3 {
 	margin-left:  20px;
+}
+h3 , h1 {
+	color:red;
+}
+
+
+.teachersDiv{
+	overflow-y: scroll;
+	height : 300px;
+	width: 500px;
 }
