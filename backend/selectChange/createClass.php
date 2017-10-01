@@ -11,9 +11,13 @@ $className = $_POST['className'];
 
 $classType = $_POST['classType'];
 
+$teacherId = $_POST['teacherId'];
+
+$date = date("Y-m-d" ,time());
+
 
 $query = "INSERT INTO class(class_Name, class_Type, date_Created, class_Teacher_ID) VALUES 
-			() ";
+			('$className' , '$classType' , '$date' , $teacherId) ";
 
 
 if( mysqli_query($con,$query) ){
@@ -22,6 +26,5 @@ if( mysqli_query($con,$query) ){
 }
 
 	 header("Location: index.php");
-
 
 ?>
